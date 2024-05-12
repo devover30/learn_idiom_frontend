@@ -35,7 +35,6 @@ async function getData() {
     idiom_eng: resData.idiom_eng,
     idiom_hin: resData.idiom_hin
   };
-  console.log(resData);
 }
 
 function generateSecureRandomString(length: number) {
